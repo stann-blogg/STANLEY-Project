@@ -93,3 +93,19 @@ const html = `
 
 `;
 console.log(html);
+
+//arrays
+//we use square brackets to create an array. we can store any data type in an array. we can also store arrays in an array.
+let siblings = ["Stanley", "Simon", "Nessy"];
+console.log(siblings[1].replaceAll('n', 'a')); //SIMON
+
+let ages = [20, 25, 30, 35];
+console.log(ages[2] + 5); //35
+
+//arrays can also store different data types in one array. we can also store arrays in an array.
+//"true" is a boolean value. it can be either true or false. it is used to represent the truth value of a statement.
+let random = ["Stanley", 25, true];
+console.log(random[0]); //Stanley
+
+let random2 = ["Stanley", 25, true, [1, 2, 3]]; 
+console.log(random2[3][0]); //1
