@@ -39,26 +39,57 @@
 // console.log(result);
 
 // numbers
-let radius = 10;
-const pi = 3.14;
+// let radius = 10;
+// const pi = 3.14;
 // 
 // math operators +, -, *, /, **, %
 
 // 
 // 
-let result = pi * radius**2;
-console.log(result); 
+// let result = pi * radius**2;
+// console.log(result); 
 
-// order of operations - B I D M A S
+// // order of operations - B I D M A S
 
-let result2 = 5 * (10 - 3)**2;
-console.log(result2);
+// let result2 = 5 * (10 - 3)**2;
+// console.log(result2);
+
+// // let likes = 10;
+// // likes++;
+// // console.log(likes);
 
 // let likes = 10;
-// likes++;
+// likes += 10;
+// likes -= 5;
+// likes *= 2;
+// likes /= 2; 
+// likes %= 3;
+
+// NaN means not a number. It is a value that is not a legal number.
+
 // console.log(likes);
+// console.log(4 / "hello"); // NaN
+// let result3 = "the blog has " + likes + " likes";
+// console.log(result3);
+// templatte strings
 
-let likes = 10;
-likes += 10;
-console.log(likes);
+ //concatenation way
+// const title = "Best class of 2019-BARANI";
+// const author = "Stanley Dzombo";
+// const likes = 30;
+// console.log(" The " + title + " by " + author + " has " + likes + " likes");
 
+//template string way. we dont use quotes but backticks and we use ${} to insert variables into the string.
+const title = "Best class of 2019-BARANI";
+const author = "Stanley Dzombo";
+const likes = 30;
+// console.log(` The ${title} by ${author} has ${likes} likes`);
+
+// creating html templates
+const html = `
+<h1>${title}</h1>
+<p>By ${author}</p>
+<span>This blog has ${likes} likes</span>
+
+`;
+console.log(html);
