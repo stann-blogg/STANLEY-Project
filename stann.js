@@ -109,3 +109,26 @@ console.log(random[0]); //Stanley
 
 let random2 = ["Stanley", 25, true, [1, 2, 3]]; 
 console.log(random2[3][0]); //1
+
+//ovewriting values in an array. we can overwrite values in an array by using the index of the value we want to overwrite.
+siblings[0] = "Stanley Dzombo";
+console.log(siblings[0]); //Stanley Dzombo
+
+//array methods
+let colors = ["red", "blue", "green"];
+console.log(colors.length); //3
+console.log(colors[colors.length - 1]); //green
+
+//array methods
+let fruits = ["apple", "banana", "orange"];
+fruits.push("grape"); //adds to the end
+console.log(fruits); //["apple", "banana", "orange", "grape"]
+
+fruits.pop(); //removes from the end
+console.log(fruits); //["apple", "banana", "orange"]
+
+fruits.shift(); //removes from the beginning
+console.log(fruits); //["banana", "orange"]
+
+fruits.unshift("kiwi"); //adds to the beginning
+console.log(fruits); //["kiwi", "banana", "orange"]
