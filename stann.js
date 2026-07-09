@@ -132,3 +132,20 @@ console.log(fruits); //["banana", "orange"]
 
 fruits.unshift("kiwi"); //adds to the beginning
 console.log(fruits); //["kiwi", "banana", "orange"]
+
+//boolean values
+//boolean values are either true or false. they are used to represent the truth value of a statement. we can use comparison operators to compare values and return a boolean value. we can also use logical operators to combine boolean values and return a boolean value.
+//  let age = 25;
+// console.log(age == 25);
+
+// let name = "Stanley";
+// console.log(name == "Stanley");
+console.log(true, false); //true false
+console.log("true", "false"); //true false
+
+//methods can return boolean values. for example, the includes() method returns a boolean value. it returns true if the value is found in the array and false if the value is not found in the array.
+let numbers = [1, 2, 3, 4, 5];
+console.log(numbers.includes(6)); //false
+
+let names = ["Stanley", "Simon", "Nessy"];
+console.log(names.includes("Stanley")); //true
