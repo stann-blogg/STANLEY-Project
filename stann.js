@@ -149,3 +149,32 @@ console.log(numbers.includes(6)); //false
 
 let names = ["Stanley", "Simon", "Nessy"];
 console.log(names.includes("Stanley")); //true
+console.log(names.includes("stanley")); //false
+console.log(names.includes("Stanley", 0)); //true
+
+//comparison operators
+//comparison operators are used to compare values and return a boolean value. they are used in conditional statements to control the flow of the program. they can also be used in loops to control the flow of the loop. they can also be used in functions to control the flow of the function. they can also be used in classes to control the flow of the class. they can also be used in objects to control the flow of the object. they can also be used in arrays to control the flow of the array. they can also be used in strings to control the flow of the string. they can also be used in numbers to control the flow of the number. they can also be used in booleans to control the flow of the boolean.
+ 
+let age = 25;
+console.log(age == 25); //true
+console.log(age != 25);
+
+let namess = "Stanno";
+console.log(namess == "Stanno"); //true
+console.log(namess != "Stanno"); //false    
+console.log(namess > "mwangyy"); //false
+
+//strict comparison (different data types can be equal with == but not with ===)
+let score = 100;
+console.log(score == 100); // true (type coercion)
+console.log(score === 100); // false (no type coercion) 
+
+//type conversion
+//type conversion is the process of converting a value from one data type to another. we can use the Number() function to convert a string to a number. we can use the String() function to convert a number to a string. we can use the Boolean() function to convert a value to a boolean. we can use the parseInt() function to convert a string to an integer. we can use the parseFloat() function to convert a string to a float. we can use the toString() method to convert a number to a string. we can use the toFixed() method to convert a number to a string with a fixed number of decimal places.    
+ let score2 = "100";
+console.log(typeof score2);
+console.log(typeof Number(score2));
+score2 = Number(score2);
+console.log(typeof score2);
+console.log(score2 + 1); //101      
+console.log(typeof String(score2));
