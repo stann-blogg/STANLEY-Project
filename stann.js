@@ -204,3 +204,7 @@ if(age < 30){
     else if(score <=30){
         console.log("you failed the test");
     }
+
+    for(let i = 0; i < 5; i++){
+        console.log("position", i);
+    }
