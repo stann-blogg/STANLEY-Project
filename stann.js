@@ -80,19 +80,19 @@
 // console.log(" The " + title + " by " + author + " has " + likes + " likes");
 
 //template string way. we dont use quotes but backticks and we use ${} to insert variables into the string.
-// const title = "Best class of 2019-BARANI";
-// const author = "Stanley Dzombo";
-// const likes = 30;
-// // console.log(` The ${title} by ${author} has ${likes} likes`);
+const title = "Best class of 2019-BARANI";
+const author = "Stanley Dzombo";
+const likes = 30;
+console.log(` The ${title} by ${author} has ${likes} likes`);
 
 // // creating html templates
-// const html = `
-// <h1>${title}</h1>
-// <p>By ${author}</p>
-// <span>This blog has ${likes} likes</span>
+const html = `
+<h1>${title}</h1>
+<p>By ${author}</p>
+<span>This blog has ${likes} likes</span>
 
-// `;
-// console.log(html);
+`;
+console.log(html);
 
 //arrays
 //we use square brackets to create an array. we can store any data type in an array. we can also store arrays in an array.
@@ -207,4 +207,9 @@ if(age < 30){
 
     for(let i = 0; i < 5; i++){
         console.log("position", i);
+    }
+
+    const names = ["Stanley", "Simon", "Nessy"];
+    for(let i = 0; i < names.length; i++){
+        console.log(names[i]);
     }
