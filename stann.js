@@ -80,19 +80,19 @@
 // console.log(" The " + title + " by " + author + " has " + likes + " likes");
 
 //template string way. we dont use quotes but backticks and we use ${} to insert variables into the string.
-const title = "Best class of 2019-BARANI";
-const author = "Stanley Dzombo";
-const likes = 30;
-console.log(` The ${title} by ${author} has ${likes} likes`);
+// const title = "Best class of 2019-BARANI";
+// const author = "Stanley Dzombo";
+// const likes = 30;
+// console.log(` The ${title} by ${author} has ${likes} likes`);
 
-// // creating html templates
-const html = `
-<h1>${title}</h1>
-<p>By ${author}</p>
-<span>This blog has ${likes} likes</span>
+// // // creating html templates
+// const html = `
+// <h1>${title}</h1>
+// <p>By ${author}</p>
+// <span>This blog has ${likes} likes</span>
 
-`;
-console.log(html);
+// `;
+// console.log(html);
 
 //arrays
 //we use square brackets to create an array. we can store any data type in an array. we can also store arrays in an array.
@@ -182,34 +182,54 @@ console.log(html);
 // control flow
 // control flow statements are used to control the execution of a program. they allow us to make decisions and repeat actions based on certain conditions. the main control flow statements in JavaScript are if statements, else statements, else if statements, switch statements, for loops, while loops, and do-while loops.
 
-let age = 45;
-if(age < 30){
-    console.log("you are under 30 years old");
-}
-    else{
-        console.log("you are over 30 years old");
-    }
+// let age = 45;
+// if(age < 30){
+//     console.log("you are under 30 years old");
+// }
+//     else{
+//         console.log("you are over 30 years old");
+//     }
 
 
-    let score = 20;
-    if(score === 100){
-        console.log("you got the top score");
-    }
+//     let score = 20;
+//     if(score === 100){
+//         console.log("you got the top score");
+    // }
     // else if(score = 50){
     //     console.log("you got the average score");
     // }
     // else if(score >= 80){
     //     console.log("you got a good score");
     // }
-    else if(score <=30){
-        console.log("you failed the test");
-    }
+    // else if(score <=30){
+    //     console.log("you failed the test");
+    // }
 
-    for(let i = 0; i < 5; i++){
-        console.log("position", i);
-    }
+    // for(let i = 0; i < 5; i++){
+    //     console.log("position", i);
+    // }
 
-    const names = ["Stanley", "Simon", "Nessy"];
-    for(let i = 0; i < names.length; i++){
+    // const names = ["Stanley", "Simon", "Nessy"];
+    // for(let i = 0; i < names.length; i++){
+    //     console.log(names[i]);
+    // }
+
+    //while loops
+   //while loops are used to repeat a block of code as long as a specified condition is true. the syntax for a while loop is:
+//    while(condition){
+//        // code block to be executed
+//    }  
+   //example:
+//    let i = 0;   
+//     while(i < 5){
+//         console.log("position", i);
+//         i++;
+//     }
+
+
+    let names = ["Stanley", "Simon", "Nessy"];
+    let i = 0;
+    while(i < names.length){
         console.log(names[i]);
+        i++;
     }
