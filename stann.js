@@ -233,3 +233,37 @@
         console.log(names[i]);
         i++;
     }
+    //do while loops are similar to while loops, but the code block is executed at least once before the condition is checked. the syntax for a do while loop is:
+
+    let r = 0;
+    do{
+        console.log("position", r);
+        r++;
+    }while(r < 5);
+
+    // if statements can also be used to control the flow of a program. they allow us to make decisions based on certain conditions. the syntax for an if statement is:
+    // if(condition){
+    //     // code block to be executed if the condition is true
+    // }else{
+    //     // code block to be executed if the condition is false
+    // }
+
+    let number = 4;
+    if(number > 7){
+        console.log("the number is great");
+    }
+    else if(number === 5){
+        console.log("the number is average ");
+    }
+    else{
+        console.log("the number is small");
+} const password = "stanley1234567@";
+if(password.length >= 12 && password.includes("@")){
+    console.log("the password is strong");
+}
+else if(password.length >= 8 || password.includes("@") && password.length >= 5){
+    console.log("the password is medium");
+}       
+else{
+    console.log("the password is weak");
+}
