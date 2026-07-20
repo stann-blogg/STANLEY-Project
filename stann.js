@@ -267,3 +267,21 @@ else if(password.length >= 8 || password.includes("@") && password.length >= 5){
 else{
     console.log("the password is weak");
 }
+
+//logic operators are used to combine multiple conditions and return a boolean value. the main logic operators in JavaScript are && (and), || (or), and ! (not). the && operator returns true if both conditions are true, the || operator returns true if at least one condition is true, and the ! operator returns the opposite boolean value of a condition.
+ 
+const password2 = "stanley1234567@";
+if(password2.length >= 12 && password2.includes("@")){
+    console.log("the password is strong");
+}
+else if(password2.length >= 8 || password2.includes("@") && password2.length >= 5){
+    console.log("the password is medium");
+}
+// logic not operator is used to reverse the boolean value of a condition. for example, if a condition is true, the ! operator will return false, and if a condition is false, the ! operator will return true. the syntax for the ! operator is:
+// if(!condition){
+//     // code block to be executed if the condition is false
+// }
+ let user = false;
+ if(!user){
+    console.log("you must be logged in to continue");
+ }
