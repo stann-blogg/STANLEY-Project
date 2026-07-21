@@ -285,3 +285,19 @@ else if(password2.length >= 8 || password2.includes("@") && password2.length >= 
  if(!user){
     console.log("you must be logged in to continue");
  }
+ //break and continue
+  let scores = [50, 25, 0, 30, 100, 20, 10];
+  for(let i = 0; i < scores.length; i++){
+    if(scores[i] === 0){
+      continue;
+    }
+    console.log(scores[i]);
+  }
+
+  let scores2 = [50, 25, 0, 30, 100, 20, 10];
+  for(let i = 0; i < scores2.length; i++){
+    if(scores2[i] === 100){
+      break;
+    }
+    console.log(scores2[i]);
+  }
