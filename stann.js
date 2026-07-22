@@ -301,3 +301,12 @@ else if(password2.length >= 8 || password2.includes("@") && password2.length >= 
     }
     console.log(scores2[i]);
   }
+ const names2 = ["Stanley", "Simon", "Nessy"];
+//  for(let i = 0; i < names2.length; i++){
+//     console.log(names2[i]);
+//  }
+ let i = 0;
+ while(i < names2.length){
+    console.log(names2[i]);
+    i++;
+ }  
