@@ -224,75 +224,75 @@
 //     while(i < 5){
 //         console.log("position", i);
 //         i++;
+// //     }
+
+
+//     let names = ["Stanley", "Simon", "Nessy"];
+//     let i = 0;
+//     while(i < names.length){
+//         console.log(names[i]);
+//         i++;
 //     }
+//     //do while loops are similar to while loops, but the code block is executed at least once before the condition is checked. the syntax for a do while loop is:
 
+//     let r = 0;
+//     do{
+//         console.log("position", r);
+//         r++;
+//     }while(r < 5);
 
-    let names = ["Stanley", "Simon", "Nessy"];
-    let i = 0;
-    while(i < names.length){
-        console.log(names[i]);
-        i++;
-    }
-    //do while loops are similar to while loops, but the code block is executed at least once before the condition is checked. the syntax for a do while loop is:
+//     // if statements can also be used to control the flow of a program. they allow us to make decisions based on certain conditions. the syntax for an if statement is:
+//     // if(condition){
+//     //     // code block to be executed if the condition is true
+//     // }else{
+//     //     // code block to be executed if the condition is false
+//     // }
 
-    let r = 0;
-    do{
-        console.log("position", r);
-        r++;
-    }while(r < 5);
-
-    // if statements can also be used to control the flow of a program. they allow us to make decisions based on certain conditions. the syntax for an if statement is:
-    // if(condition){
-    //     // code block to be executed if the condition is true
-    // }else{
-    //     // code block to be executed if the condition is false
-    // }
-
-    let number = 4;
-    if(number > 7){
-        console.log("the number is great");
-    }
-    else if(number === 5){
-        console.log("the number is average ");
-    }
-    else{
-        console.log("the number is small");
-} const password = "stanley1234567@";
-if(password.length >= 12 && password.includes("@")){
-    console.log("the password is strong");
-}
-else if(password.length >= 8 || password.includes("@") && password.length >= 5){
-    console.log("the password is medium");
-}       
-else{
-    console.log("the password is weak");
-}
-
-//logic operators are used to combine multiple conditions and return a boolean value. the main logic operators in JavaScript are && (and), || (or), and ! (not). the && operator returns true if both conditions are true, the || operator returns true if at least one condition is true, and the ! operator returns the opposite boolean value of a condition.
- 
-const password2 = "stanley1234567@";
-if(password2.length >= 12 && password2.includes("@")){
-    console.log("the password is strong");
-}
-else if(password2.length >= 8 || password2.includes("@") && password2.length >= 5){
-    console.log("the password is medium");
-}
-// logic not operator is used to reverse the boolean value of a condition. for example, if a condition is true, the ! operator will return false, and if a condition is false, the ! operator will return true. the syntax for the ! operator is:
-// if(!condition){
-//     // code block to be executed if the condition is false
+//     let number = 4;
+//     if(number > 7){
+//         console.log("the number is great");
+//     }
+//     else if(number === 5){
+//         console.log("the number is average ");
+//     }
+//     else{
+//         console.log("the number is small");
+// } const password = "stanley1234567@";
+// if(password.length >= 12 && password.includes("@")){
+//     console.log("the password is strong");
 // }
- let user = false;
- if(!user){
-    console.log("you must be logged in to continue");
- }
- //break and continue
-  let scores = [50, 25, 0, 30, 100, 20, 10];
-  for(let i = 0; i < scores.length; i++){
-    if(scores[i] === 0){
-      continue;
-    }
-    console.log(scores[i]);
-  }
+// else if(password.length >= 8 || password.includes("@") && password.length >= 5){
+//     console.log("the password is medium");
+// }       
+// else{
+//     console.log("the password is weak");
+// }
+
+// //logic operators are used to combine multiple conditions and return a boolean value. the main logic operators in JavaScript are && (and), || (or), and ! (not). the && operator returns true if both conditions are true, the || operator returns true if at least one condition is true, and the ! operator returns the opposite boolean value of a condition.
+ 
+// const password2 = "stanley1234567@";
+// if(password2.length >= 12 && password2.includes("@")){
+//     console.log("the password is strong");
+// }
+// else if(password2.length >= 8 || password2.includes("@") && password2.length >= 5){
+//     console.log("the password is medium");
+// }
+// // logic not operator is used to reverse the boolean value of a condition. for example, if a condition is true, the ! operator will return false, and if a condition is false, the ! operator will return true. the syntax for the ! operator is:
+// // if(!condition){
+// //     // code block to be executed if the condition is false
+// // }
+//  let user = false;
+//  if(!user){
+//     console.log("you must be logged in to continue");
+//  }
+//  //break and continue
+//   let scores = [50, 25, 0, 30, 100, 20, 10];
+//   for(let i = 0; i < scores.length; i++){
+//     if(scores[i] === 0){
+//       continue;
+//     }
+//     console.log(scores[i]);
+//   }
 
   let scores2 = [50, 25, 0, 30, 100, 20, 10];
   for(let i = 0; i < scores2.length; i++){
@@ -310,3 +310,13 @@ else if(password2.length >= 8 || password2.includes("@") && password2.length >= 
     console.log(names2[i]);
     i++;
  }  
+ let i2 = 0;
+ do{
+    console.log(names2[i2]);
+    i2++;
+ }while(i2 < names2.length);
+
+ const password3 = "stanley1234567@";
+if(password3.length >= 12 && password3.includes("@")){
+    console.log("the password is strong");      
+}
