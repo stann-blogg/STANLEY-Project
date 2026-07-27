@@ -320,3 +320,37 @@
 if(password3.length >= 12 && password3.includes("@")){
     console.log("the password is strong");      
 }
+// switch statements are used to perform different actions based on different conditions. the syntax for a switch statement is:
+// switch(expression){
+//     case value1:
+//         // code block to be executed if expression === value1
+//         break;
+//     case value2:
+//         // code block to be executed if expression === value2
+//         break;
+//     default:
+//         // code block to be executed if expression doesn't match any case
+// }       
+// if grade is A, print "Excellent"
+// if grade is B, print "Good"
+// if grade is C, print "Average"
+// if grade is D, print "Poor"
+// if grade is F, print "Fail" 
+
+const grade = "A";
+
+if(grade === "A"){
+    console.log("Excellent");
+}   
+else if(grade === "B"){
+    console.log("Good");
+}
+else if(grade === "C"){
+    console.log("Average");
+}
+else if(grade === "D"){
+    console.log("Poor");
+}
+else if(grade === "F"){
+    console.log("Fail");
+}   
