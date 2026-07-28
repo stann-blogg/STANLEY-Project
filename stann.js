@@ -324,7 +324,7 @@ if(password3.length >= 12 && password3.includes("@")){
 // switch(expression){
 //     case value1:
 //         // code block to be executed if expression === value1
-//         break;
+//         break;+
 //     case value2:
 //         // code block to be executed if expression === value2
 //         break;
@@ -354,3 +354,24 @@ else if(grade === "D"){
 else if(grade === "F"){
     console.log("Fail");
 }   
+
+const grade2 = "B";
+switch(grade2){
+    case "A":
+        console.log("Excellent");       
+        break;
+    case "B":
+        console.log("Good");        
+        break;
+    case "C":
+        console.log("Average");
+        break;
+    case "D":
+        console.log("Poor");
+        break;
+    case "F":
+        console.log("Fail");
+        break;
+    default:
+        console.log("Invalid grade");
+}
