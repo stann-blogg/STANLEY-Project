@@ -375,3 +375,45 @@ switch(grade2){
     default:
         console.log("Invalid grade");
 }
+
+const grade3 = "C";
+switch(grade3){
+    case "A":
+        console.log("Excellent");
+        break;
+    case "B":
+        console.log("Good");
+        break;
+    case "C":
+        console.log("Average");
+        break;
+    case "D":
+        console.log("Poor");
+        break;
+    case "F":
+        console.log("Fail");
+        break;
+    default:
+        console.log("Invalid grade");
+}
+
+let grade4 = "D";
+switch(grade4){
+    case "A":  
+        console.log("Excellent");
+        break;
+    case "B":
+        console.log("Good");
+        break;
+    case "C":
+        console.log("Average");
+        break;
+    case "D":
+        console.log("Poor");
+        break;
+    case "F":
+        console.log("Fail");
+        break;
+    default:
+        console.log("Invalid grade");
+}
