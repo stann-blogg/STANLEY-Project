@@ -417,3 +417,31 @@ switch(grade4){
     default:
         console.log("Invalid grade");
 }
+//block scope and function scope
+//block scope is the scope of a variable that is defined within a block of code. a block of code is defined by curly braces {}. a variable that is defined within a block of code is only accessible within that block of code. a variable that is defined outside of a block of code is accessible within that block of code. a variable that is defined within a function is only accessible within that function. a variable that is defined outside of a function is accessible within that function. a variable that is defined within a function is not accessible outside of that function. a variable that is defined outside of a function is not accessible within that function. a variable that is defined within a function is not accessible within another function. a variable that is defined outside of a function is not accessible within another function.     
+ let age3 = 30;
+if(true){
+    let age3 = 40;
+    console.log("inside block:", age3); //40
+}
+if(true){
+    let age3 = 50;
+    console.log("inside block:", age3); //50
+}
+if(true){
+    let age3 = 60;
+    console.log("inside block:", age3); //60
+}
+if(true){
+    let age3 = 70;
+    console.log("inside block:", age3); //70
+}   
+const name3 = "Stanley";
+if(true){
+    const name3 = "Simon";
+    console.log("inside block:", name3); //Simon
+}
+if(true){
+    const name3 = "Nessy";
+    console.log("inside block:", name3); //Nessy
+}
