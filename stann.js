@@ -445,3 +445,21 @@ if(true){
     const name3 = "Nessy";
     console.log("inside block:", name3); //Nessy
 }
+const name4 = "Stanley";
+if(true){
+    const name4 = "Simon";
+    console.log("inside block:", name4); //Simon
+}   if(true){
+    const name4 = "Nessy";
+    console.log("inside block:", name4); //Nessy
+}
+let age4 = 30;
+if(true){
+    let age4 = 40;
+    console.log("inside block:", age4); //40
+}
+const name5 = "Stanley";
+if(true){
+    const name5 = "Simon";
+    console.log("inside block:", name5); //Simon
+}
