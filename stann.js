@@ -463,3 +463,17 @@ if(true){
     const name5 = "Simon";
     console.log("inside block:", name5); //Simon
 }
+//control flows?
+// for loops are used to repeat a block of code a certain number of times. the syntax for a for loop is:
+// for(initialization; condition; increment/decrement){
+//     // code block to be executed
+// }           
+for(let i = 0; i < 5; i++){
+    console.log("position", i);
+}
+const names3 = ["Stanley", "Simon", "Nessy"];
+for(let i = 0; i < names3.length; i++){
+    // console.log(names3[i]);
+    let html2 = `<div>${names3[i]}</div>`;
+    console.log(html2);
+}
