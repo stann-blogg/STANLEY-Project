@@ -477,3 +477,39 @@ for(let i = 0; i < names3.length; i++){
     let html2 = `<div>${names3[i]}</div>`;
     console.log(html2);
 }
+// functions
+// functions are used to group a block of code that can be reused multiple times. the syntax for a function is:
+// function functionName(parameters){
+//     // code block to be executed
+
+function greet(){
+    console.log("hello there");
+    }
+
+    greet(); //hello there
+
+    // functions can also take parameters. parameters are values that are passed into a function when it is called. the syntax for a function with parameters is:
+    //function declaration
+    
+    function greet2(name){
+        console.log("hello " + name);
+    }
+    greet2("Alice"); //hello Alice
+
+    //function expression
+    const greet3 = function(name){
+        console.log("hello " + name);
+    };
+    greet3("Bob"); //hello Bob
+
+    // passing arguments into functions. we can pass multiple arguments into a function. the syntax for a function with multiple arguments is:
+    function greet4(name, age){
+        console.log("hello " + name + ", you are " + age + " years old");
+    }
+    greet4("Charlie", 25); //hello Charlie, you are 25 years old    
+
+    const greet5 = function(name = "stanley", age = 25){
+        console.log("hello " + name + ", you are " + age + " years old");
+    };
+    greet5(); //hello David, you are 30 years old
+    greet5("Eve", 35); //hello Eve, you are 35 years old
