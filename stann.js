@@ -513,3 +513,18 @@ function greet(){
     };
     greet5(); //hello David, you are 30 years old
     greet5("Eve", 35); //hello Eve, you are 35 years old
+
+    const calcArea = function(radius){
+        return 3.14 * radius**2;
+    };  
+    calcArea(5); //78.5
+
+    const area = calcArea(5);
+    console.log("the area is: " + area); //the area is: 78.5
+
+    
+    const calcArea2 = (radius) => {
+        return 3.14 * radius**2;
+    };
+    const area2 = calcArea2(5);
+    console.log("the area is: " + area2); //the area is: 78.5
