@@ -522,9 +522,14 @@ function greet(){
     const area = calcArea(5);
     console.log("the area is: " + area); //the area is: 78.5
 
-    
+
     const calcArea2 = (radius) => {
         return 3.14 * radius**2;
     };
     const area2 = calcArea2(5);
     console.log("the area is: " + area2); //the area is: 78.5
+
+
+    ((name) => {
+    console.log("meow " + "the "+ "cat " + name);
+})("kate");
