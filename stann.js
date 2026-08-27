@@ -533,3 +533,24 @@ function greet(){
     ((name) => {
     console.log("meow " + "the "+ "cat " + name);
 })("kate");
+
+((nickname) => {
+    console.log("meow " + "the "+ "cat " + nickname + " is very cute");
+})("stanley");
+
+const calcArea3 = (radius) => 3.14 * radius**2;
+const area3 = calcArea3(5);
+console.log("the area is: " + area3); //the area is: 78.5       
+
+const greet6 = () => "hello world";
+const result = greet6();
+console.log(result); //hello world
+
+(() => "hello world")(); //hello world  
+const bill = (products, tax) => {
+    let total = 0;
+    for(let i = 0; i < products.length; i++){
+        total += products[i] + products[i] * tax;
+    }
+    return total;
+};
