@@ -554,3 +554,16 @@ const bill = (products, tax) => {
     }
     return total;
 };
+
+const products = [10, 15, 30];
+const tax = 0.2;
+const total = bill(products, tax);
+console.log("the total is: " + total); //the total is: 72   
+
+(() => {
+    console.log("hello world");
+})(); //hello world
+
+(() => {
+    console.log("hello stann");
+})(); //hello world
