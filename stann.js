@@ -567,3 +567,34 @@ console.log("the total is: " + total); //the total is: 72
 (() => {
     console.log("hello stann");
 })(); //hello world
+
+const calcArea4 = function(radius){
+    return 3.14 * radius**2;
+}
+const area4 = calcArea4(5);
+console.log("the area is: " + area4); //the area is: 78.5
+
+const calcArea5 =radius => 3.14 * radius**2;
+const area5 = calcArea5(25);
+console.log("the area is: " + area5); //the area is: 78.5
+
+const bill2 = (products, tax) => {
+    let total = 0;  
+    for(let i = 0; i < products.length; i++){
+        total += products[i] + products[i] * tax;
+    }
+    return total;
+};
+ const products2 = [10, 15, 30];
+ const tax2 = 0.2;
+ const total2 = bill2(products2, tax2);
+ console.log("the total is: " + total2); //the total is: 72
+
+ //call back functions are functions that are passed as arguments to other functions. they are used to perform a certain action after a certain event has occurred. the syntax for a callback function is:
+
+const myFunc = (callbackFunc) => {
+    //do something
+    let value = 50;
+    return callbackFunc(value);
+}
+console.log(myFunc((value) => value)); //50
